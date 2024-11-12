@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "n6dCJ",
+        "fullname": "Moris Max",
+        "password": "1234",
+        "isAdmin": false
+    },
+    {
+        "_id": "u101",
+        "fullname": "moshe",
+        "password": "1234",
+        "isAdmin": false
+    },
+    {
+        "_id": "u102",
+        "fullname": "assaf",
+        "password": "1234",
+        "isAdmin": true
+    },
+    {
+        "_id": "u103",
+        "fullname": "john",
+        "password": "1234",
+        "isAdmin": false
+    },
+    {
+        "_id": "u104",
+        "fullname": "eli",
+        "password": "1234",
+        "isAdmin": false
+    }
+]
