@@ -24,8 +24,8 @@ function getById(bugId) {
 		.get(BASE_URL + bugId)
 		.then((res) => res.data)
 		.catch((err) => {
-			console.log('Problem getting bug', err)            
-			throw err.response.status
+			console.log('Problem getting bug', err.response) 
+			throw err.response.data
 		})
 }
 

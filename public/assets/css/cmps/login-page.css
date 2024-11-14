@@ -1,0 +1,23 @@
+.login-container {
+    height: 100%;
+}
+
+.login-container > section {
+    display: flex;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        text-align: start;
+
+        > * {
+            min-height: 30px;
+        }
+
+        input:last-of-type {
+            margin-block-end: 20px;
+        }
+    }
+}

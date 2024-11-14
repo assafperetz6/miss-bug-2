@@ -28,5 +28,10 @@
         "fullname": "eli",
         "password": "1234",
         "isAdmin": false
+    },
+    {
+        "fullname": "gal wender",
+        "password": "2030",
+        "_id": "22DlS"
     }
 ]

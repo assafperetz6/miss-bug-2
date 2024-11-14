@@ -1,9 +1,9 @@
 [
     {
         "title": "404 Coffee Not Found",
-        "severity": 0,
+        "severity": 23,
         "_id": "C0FF33",
-        "updatedAt": 1731402141035,
+        "updatedAt": 1731581733927,
         "createdAt": 1542107359454,
         "creator": {
             "_id": "u101",

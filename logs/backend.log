@@ -155,3 +155,55 @@
 12.11.2024, 12:20:24 - INFO - Server listening on port http://127.0.0.1:3030/
 12.11.2024, 12:23:04 - INFO - Server listening on port http://127.0.0.1:3030/
 12.11.2024, 13:04:47 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:09:41 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:12:42 - ERROR - User has viewed more than 3 bugs | ["abc125","abc126","C0FF33","ESZsW"]
+12.11.2024, 13:14:17 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:14:51 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:14:52 - ERROR - User has viewed more than 3 bugs | ["ESZsW","C0FF33"]
+12.11.2024, 13:18:43 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:18:47 - ERROR - User has viewed more than 3 bugs | ["C0FF33","abc126"]
+12.11.2024, 13:19:51 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:19:53 - ERROR - User has viewed more than 3 bugs | ["C0FF33","abc126"]
+12.11.2024, 13:21:04 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:21:10 - ERROR - User has viewed more than 3 bugs | ["abc126","abc125"]
+12.11.2024, 13:21:30 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:21:34 - ERROR - User has viewed more than 3 bugs | ["abc126","abc125"]
+12.11.2024, 13:21:45 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:21:53 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:22:05 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:22:10 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:22:54 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:22:56 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:23:02 - ERROR - User has viewed more than 3 bugs | ["abc126","abc125"]
+12.11.2024, 13:25:05 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:25:19 - ERROR - User has viewed more than 3 bugs | ["abc125","abc126"]
+12.11.2024, 13:26:13 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:26:14 - ERROR - User has viewed more than 3 bugs | ["abc125","abc126"]
+12.11.2024, 13:26:18 - ERROR - User has viewed more than 3 bugs | ["abc125","abc126"]
+12.11.2024, 13:27:01 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:27:08 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:27:37 - ERROR - User has viewed more than 3 bugs | ["abc126","abc125"]
+12.11.2024, 13:28:03 - INFO - Server listening on port http://127.0.0.1:3030/
+12.11.2024, 13:28:09 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:28:40 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:28:44 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:29:47 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:29:53 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:29:59 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:30:13 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:31:31 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+12.11.2024, 13:31:41 - ERROR - User has viewed more than 3 bugs | ["abc126","C0FF33"]
+14.11.2024, 12:39:40 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 12:46:37 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 12:48:02 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 12:48:18 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 12:49:01 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 12:55:22 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 13:09:51 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 13:11:36 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 13:12:00 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 13:30:03 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 13:30:58 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 13:51:30 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:04:12 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:14:24 - INFO - Server listening on port http://127.0.0.1:3030/
