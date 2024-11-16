@@ -1,13 +1,17 @@
-import express from 'express'
 import path from 'path'
+import express from 'express'
 import cookieParser from 'cookie-parser'
 
-import { fileURLToPath } from 'url'
 import { bugService } from './services/bug.service.js'
 import { userService } from './services/user.service.js'
 import { loggerService } from './services/logger.service.js'
 
 const app = express()
+
+//* Express Config:
+app.use(express.static('public'))
+app.use(cookieParser())
+app.use(express.json())
 
 function manageVisitedBugs(req, res, next) {
 	const { bugId } = req.params
@@ -26,10 +30,13 @@ function manageVisitedBugs(req, res, next) {
 	next()
 }
 
-//* Express Config:
-app.use(express.static('public'))
-app.use(cookieParser())
-app.use(express.json())
+function checkPermissions(req, res, next) {
+	const { loginToken } = req.cookies
+	const loggedinUser = userService.validateToken(loginToken)
+
+	if (!loggedinUser) return res.status(401).send('Cannot delete bug')
+	else next()
+}
 
 //* Express Routing:
 app.get('/api/bug', (req, res) => {
@@ -81,11 +88,11 @@ app.get('/api/bug/:bugId', manageVisitedBugs, (req, res) => {
 		.then((bug) => res.send(bug))
 		.catch((err) => {
 			loggerService.error('Cannot get bug', err)
-			res.status(500).send('Cannot get bug')
+			res.status(400).send('Cannot get bug')
 		})
 })
 
-app.delete('/api/bug/:bugId', (req, res) => {
+app.delete('/api/bug/:bugId', checkPermissions, (req, res) => {		
 	const { bugId } = req.params
 	bugService
 		.remove(bugId)
@@ -158,10 +165,10 @@ app.post('/api/auth/logout', (req, res) => {
 
 // Fallback route
 app.get('/**', (req, res) => {
-	res.sendFile(path.resolve('public/index.html'))
+    res.sendFile(path.resolve('public/index.html'))
 })
 
-const port = 3030
-app.listen(port, () =>
-	loggerService.info(`Server listening on port http://127.0.0.1:${port}/`)
+const PORT = process.env.PORT || 3031
+app.listen(PORT, () =>
+	loggerService.info(`Server listening on port http://127.0.0.1:${PORT}/`)
 )

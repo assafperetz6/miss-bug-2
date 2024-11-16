@@ -1,37 +1,62 @@
 [
     {
         "_id": "n6dCJ",
-        "fullname": "Moris Max",
+        "username": "Moris Max",
         "password": "1234",
         "isAdmin": false
     },
     {
         "_id": "u101",
-        "fullname": "moshe",
+        "username": "moshe",
         "password": "1234",
         "isAdmin": false
     },
     {
         "_id": "u102",
-        "fullname": "assaf",
+        "username": "assaf",
         "password": "1234",
         "isAdmin": true
     },
     {
         "_id": "u103",
-        "fullname": "john",
+        "username": "john",
         "password": "1234",
         "isAdmin": false
     },
     {
         "_id": "u104",
-        "fullname": "eli",
+        "username": "eli",
         "password": "1234",
         "isAdmin": false
     },
     {
-        "fullname": "gal wender",
+        "username": "gal wender",
         "password": "2030",
         "_id": "22DlS"
+    },
+    {
+        "username": "lilili",
+        "password": "12345",
+        "_id": "BGCMg"
+    },
+    {
+        "username": "yo",
+        "password": "12",
+        "_id": "ngek3"
+    },
+    {
+        "username": "r",
+        "password": "321",
+        "_id": "RLP9O"
+    },
+    {
+        "username": "hhh",
+        "password": "222",
+        "_id": "exQe7"
+    },
+    {
+        "username": "j",
+        "password": "5445",
+        "_id": "Z8uQa"
     }
 ]

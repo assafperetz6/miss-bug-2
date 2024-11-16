@@ -1,6 +1,7 @@
 import fs from 'fs'
 import Cryptr from 'cryptr'
 import { utilService } from './util.service.js'
+import { loggerService } from './logger.service.js'
 
 const cryptr = new Cryptr(process.env.SECRET1 || 'token1234')
 const users = utilService.readJsonFile('data/user.json')
@@ -8,13 +9,8 @@ const users = utilService.readJsonFile('data/user.json')
 export const userService = {
     query,
     remove,
-
     save,
     checkLogin,
-    logout,
-
-    getLoggedinUser,
-    getEmptyCredentials,
     getLoginToken,
     validateToken
 }
@@ -33,7 +29,7 @@ function checkLogin({ username, password }) {
 	if (user) {
 		user = {
 			_id: user._id,
-			fullname: user.fullname,
+			username: user.username,
 			isAdmin: user.isAdmin,
 		}
 	}
@@ -43,25 +39,13 @@ function checkLogin({ username, password }) {
 function save(user) {
     user._id = utilService.makeId()
     users.push(user)
-        
+
     return _saveUsersToFile()
         .then(() => ({
             _id: user._id,
-            fullname: user.fullname,
-            isAdmin: user.isAdmin,
+            username: user.username,
+            isAdmin: user.isAdmin || false,
         }))
-}
-
-function logout() {
-    console.log('logout')
-}
-
-function getLoggedinUser() {
-    console.log('getLoggedinUser')
-}
-
-function getEmptyCredentials() {
-    console.log('getEmptyCredentials')
 }
 
 function getLoginToken(user) {

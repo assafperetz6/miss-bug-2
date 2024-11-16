@@ -207,3 +207,58 @@
 14.11.2024, 13:51:30 - INFO - Server listening on port http://127.0.0.1:3030/
 14.11.2024, 14:04:12 - INFO - Server listening on port http://127.0.0.1:3030/
 14.11.2024, 14:14:24 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:26:23 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:26:23 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:26:35 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:26:58 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:27:20 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:29:15 - INFO - Server listening on port http://127.0.0.1:3030/
+14.11.2024, 14:32:24 - INFO - Server listening on port http://127.0.0.1:3030/
+15.11.2024, 12:10:13 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:15:45 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:18:08 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:20:21 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:20:28 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:20:54 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:20:56 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:22:22 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:22:28 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:22:32 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:23:01 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:23:02 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:23:32 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:24:38 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:25:04 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:25:51 - INFO - Server listening on port http://127.0.0.1:3031/
+15.11.2024, 12:26:05 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 12:36:29 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 12:39:07 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 12:41:55 - INFO - Server listening on port http://127.0.0.1:undefined/
+16.11.2024, 12:42:07 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 12:44:53 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:14:08 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:14:28 - DEBUG - {"username":"yo","password":"12"}
+16.11.2024, 13:14:47 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:16:36 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:17:07 - DEBUG - {"_id":"RLP9O"}
+16.11.2024, 13:17:57 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:18:06 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:18:19 - DEBUG - {"username":"hhh","password":"222","_id":"exQe7"}
+16.11.2024, 13:19:37 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:21:09 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:22:24 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:26:13 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:27:58 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:29:25 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:29:58 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:30:01 - DEBUG - 
+16.11.2024, 13:30:35 - DEBUG - 9a7a419b8bf8b2f81825ac0f8410fa3322cf40ea3dc7b0f955b86f7f3de06c694934b1d53a4d3c34c90ef929aeeb2cd186e61de6a1959981eb2793ef8d1bb1d6e62b0f04a696fb9f8ec8631448cba9d6c4bd9dbc0a9d3c9c2aae1d81ae3e5d2730120b007db45cfb10ee8862917e73f60a162271034e97d2846883c9f43961269aa58dcd6424215d2df01c6741d078c5f8
+16.11.2024, 13:31:23 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:31:40 - DEBUG - {"_id":"u101","username":"moshe","isAdmin":false}
+16.11.2024, 13:32:25 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:32:37 - DEBUG - {"_id":"u101","username":"moshe","isAdmin":false}
+16.11.2024, 13:33:32 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:34:37 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:34:40 - DEBUG - {"_id":"u101","username":"moshe","isAdmin":false}
+16.11.2024, 13:35:09 - INFO - Server listening on port http://127.0.0.1:3031/
+16.11.2024, 13:37:38 - INFO - Server listening on port http://127.0.0.1:3031/

@@ -19,6 +19,7 @@ function query(filterBy = {}) {
 				throw err
 			})
 }
+
 function getById(bugId) {
 	return axios
 		.get(BASE_URL + bugId)
